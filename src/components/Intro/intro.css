@@ -1,0 +1,77 @@
+.intro{
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.intro-content{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 650;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.manikanta{
+    color: #5adeff;
+}
+.content-para{
+    font-size: 14px;
+    font-weight: 250;
+}
+.hireme-btn{
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #5adeff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 0.1rem 1.3rem;
+}
+.hireme-img{
+    object-fit: cover;
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: 0.7rem;
+}
+.background-img{
+  
+    object-fit: cover;
+    position: absolute;
+    top: -1rem;
+    right: 0;
+    z-index: -1;
+    height: 93vh;
+    
+}
+@media screen and (max-width:840px){
+    .background-img{
+        right: -10vw
+    }
+    .intro-content{
+        font-size: 10vw
+    }
+    .hello{
+        font-size: 4.5vw
+    }
+}
+@media screen and (max-width:480px){
+    .background-img{
+        right: -41vw
+    }
+    
+    
+  
+}
