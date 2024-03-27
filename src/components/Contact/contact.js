@@ -1,59 +1,52 @@
 import React from "react";
-import "./contact.css"
+import "./contact.css";
+import spike from "../../assets/spike.png"
+import cal from "../../assets/cal.png"
 import linkedin from "../../assets/linkedin.png"
 import github from "../../assets/github.png"
 import twitter from "../../assets/twitter.png"
-import leetcode from "../../assets/code.png"
-import email from "../../assets/mail.png"
-import phone from "../../assets/phone-call.png";
-
+import code from "../../assets/code.png"
 const Contact=()=>{
     return(
-        <section className="cont">
-            <div className="contact">
-                <div className="contact-left">
-                    <h1>Contact Me</h1>
-                    <div className="contact-icons">
-                        <div className="contact-icon">
-                            <img src={email} className="contact-img" alt="contact-icon"></img>
-                            <p>striveredu010@gmail.com</p>
-                        </div>
-                        <div className="contact-icon">
-                            <img src={phone} className="contact-img" alt="contact-icon"></img>
-                            <p>(+91) 9492014400</p>
-                        </div>
+        <div className="cnt">
+            
+          <section className="contact">
+            <div className="left-contact">
+                <h1>Contact Me</h1>
+                <div className="contact-ways">
+                    <div className="contact-way">
+                        <img src={spike} alt="contct" className="contact-img"></img>
+                        <p>striveredu010@gmail.com</p>
                     </div>
-                    <div className="socialmedia-icons">
-                      <a href="#"><img src={linkedin} alt="social-icons" className="social-icons"></img></a>
-                      <a href="#"><img src={github} alt="social-icons" className="social-icons"></img></a>
-                      <a href="#"><img src={twitter} alt="social-icons" className="social-icons"></img></a>
-                      <a href="#"><img src={leetcode} alt="social-icons" className="social-icons"></img></a>
-                     
+                    <div className="contact-way">
+                        <img src={cal} alt="contct" className="contact-img"></img>
+                        <p>+(91) 9492014400</p>
                     </div>
-                    <a href="../../assets/mani.pdf" download className="download-cv-btn">
-                 Download CV
-                </a>
 
                 </div>
-               
-
-                <div className="contact-right">
-                    <form>
-                        <input type="name" placeholder="type your name" className="namecls" required></input>
-                        <input type="email" placeholder="type your name" className="emailcls" required></input>
-                        <textarea name="message" rows="6" placeholder="your message"></textarea>
-                        <button type="submit" className="form-btn">Submit</button>
-                    </form>
-                   
-
-                </div>
+               <div className="social-media">
+                  <a href="#"><img src={linkedin} alt="socialmedia" className="social-media-icon"></img></a>
+                  <a href="#"><img src={github} alt="socialmedia" className="social-media-icon"></img></a>
+                  <a href="#"><img src={twitter} alt="socialmedia" className="social-media-icon"></img></a>
+                  <a href="#"><img src={code} alt="socialmedia" className="social-media-icon"></img></a>
+               </div>
+               <a href="#" className="download-cv">Download Cv</a>
 
             </div>
-            <div className="copyright">
-                <p>@K M K ALL RIGHTS RESERVED</p>
-            </div>
+            <div className="right-contact">
+                <form>
+                    <input type="text" placeholder="type your name" className="input-name" required></input>
+                    <input type="email" placeholder="type your email" className="input-name" required></input>
+                    <textarea rows="7" placeholder="your message"></textarea>
+                    <button className ="formsubmit-btn" type="submit">Submit</button>
+                </form>
 
-        </section>
+            </div>
+           
+           </section>
+          
+        </div>
+       
     )
 }
 export default Contact;
