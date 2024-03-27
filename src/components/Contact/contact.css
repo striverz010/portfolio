@@ -1,0 +1,97 @@
+.contact{
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+.contact-left{
+  flex-basis: 35%;
+}
+.contact-left >h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.contact-icon{
+    display: flex;
+    align-items: center;
+}
+.contact-img{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #5adeff;
+    border-radius: 1rem;
+}
+.socialmedia-icons{
+    margin-top: 1.5rem;
+}
+.socialmedia-icons a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #5adeff;
+    display: inline-block;
+    transition: transform 0.5s;
+    margin-bottom: 1rem;
+}
+.socialmedia-icons a:hover{
+    transform: translateY(-5px);
+}
+.download-cv-btn{
+    margin-top: 2rem;
+    border: solid #5adeff 2px;
+    padding: 0.7rem;
+    background: #5adeff;
+    border-radius: 1rem;
+
+}
+
+.social-icons{
+    width: 2rem;
+    height: 2rem;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-right form{
+    width: 100%;
+
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 1rem 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.form-btn{
+    border: none;
+    background: #5adeff;
+    padding: 0.8rem 1.7rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 1rem;
+
+}
+
+@media screen and (max-width:850px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
