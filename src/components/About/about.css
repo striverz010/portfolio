@@ -1,0 +1,43 @@
+.about{
+    padding: 2rem 0;
+    width: 100vw;
+    max-width: 75rem;
+    overflow: hidden;
+   
+}
+.about-tag{
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+.about-bars{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.about-bar{
+    width: 300px;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 1rem;  
+    transition: background 0.5s ,transform 0.5s;    
+}
+.ab-img{
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 0.3rem;
+    border-radius: 1rem;
+}
+.about-bar>h2{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-left: 3px;
+}
+.about-bar>p{
+    padding-left: 3px;
+}
+.about-bar:hover{
+    transform: translateY(-10px);
+}
