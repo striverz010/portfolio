@@ -20,8 +20,8 @@ const Work=()=>{
                         <h3>Dev Savor</h3>
                         <p> Developed FoodBuddy web application, enabling seamless browsing,searching, and online ordering of food items.</p>
                         <div className="viewicons">
-                        <a href="https://github.com/striverz010"><img src={viewicon} alt="git-icon" className="git-img"></img></a>
-                        <a href="https://github.com/striverz010"><img src={giticon} alt="git-icon" className="git-img"></img></a>
+                        <a href="https://github.com/striverz010/DevSavor"><img src={viewicon} alt="git-icon" className="git-img"></img></a>
+                        <a href="https://github.com/striverz010/DevSavor"><img src={giticon} alt="git-icon" className="git-img"></img></a>
                         </div>
                        
                     </div>

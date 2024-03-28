@@ -76,7 +76,11 @@
     margin: 1rem 0rem;
     border-radius:1rem;
     background: rgb(50,50,50);
-
+    cursor: pointer;
+}
+.contact-way a{
+    text-decoration: none;
+    color:#ffffff;
 }
 .contact-way >img{
     margin-right:  0.7rem;
@@ -100,7 +104,8 @@ form input,form textarea{
     background: #5adeff;
     border: none;
     padding: 0.7rem 1.7rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 @media screen and (max-width:945px){
