@@ -1,7 +1,7 @@
 import React from "react";
-import work1 from "../../assets/portfolio-1.png"
-import work2 from "../../assets/portfolio-2.png"
-import work3 from "../../assets/portfolio-3.png"
+import work1 from "../../assets/port11.jpg"
+import work2 from "../../assets/port2.jpg"
+import work3 from "../../assets/port3.jpg"
 import "./work.css"
 import giticon from "../../assets/githubicon.png";
 import viewicon from "../../assets/view.png"
