@@ -7,7 +7,7 @@ const About=()=>{
     return(
         <section className="about">
 
-            <h1 align="center" className="about-tag">I Know That Good Dev <br/>Means Good Business</h1>
+            <h1 align="center" className="about-tag"><span className="mark" > Creativity</span> Meets <span className="mark">Code</span> for<br/> Real-world Challenges</h1>
 
             <div className="about-bars">
 

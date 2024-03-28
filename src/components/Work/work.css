@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
 .portfolio-span{
-    color: #93daec;
+    color: #5adeff;
 }
 .work-tag{
     padding: 1rem;
@@ -52,9 +52,15 @@
     transition: height 0.5s ;
     
 }
- .layer > h3{
+.layer > h3{
  font-weight: 500;
- margin-bottom: 2rem;
+ font-size: 2rem;
+ 
+}
+.layer>p{
+    font-weight: 400;
+    font-size: 0.7rem;
+    
 }
 .my-work:hover img{
     transform: scale(1.1);
@@ -62,10 +68,25 @@
 .my-work:hover .layer{
     height: 100%;
 }
-.git-img{
-    height: 1rem;
-    width: 1rem;
+.viewicons{
+    display: flex;
+    margin-top: 0.7rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 5rem;
+
 }
+.git-img{
+    height: 2rem;
+    width: 2rem;
+    margin: 0rem 1rem;
+}
+.viewicons a{
+    transition: transform 0.4s;
+}
+.viewicons a:hover{
+    transform: translateY(-5px)
+}
+
 .seemore-btn{
     margin: 0.7rem;
     border: none;

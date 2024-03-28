@@ -36,7 +36,7 @@ const Navbar=()=>{
             <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}  offset={-40}className="listt-item"  onClick={()=>setShowMenu(false)}>ABOUT</Link>
             <Link activeClass="active" to="work" spy={true} smooth={true} duration={500}  offset={-30}className="listt-item"  onClick={()=>setShowMenu(false)}>WORK</Link>
             <Link activeClass="active" to="skills" spy={true} smooth={true} duration={500}  offset={-155}className="listt-item"  onClick={()=>setShowMenu(false)}>SKILL</Link>
-            <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}  offset={-155}className="listt-item"  onClick={()=>setShowMenu(false)}>CONTACT</Link>
+            <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}  offset={-50}className="listt-item"  onClick={()=>setShowMenu(false)}>CONTACT</Link>
          </div>
 
         </nav>
