@@ -9,8 +9,8 @@ const Intro=()=>{
         <section className="intro">
             <div className="intro-content">
                 <span className="hello">Hello,</span>
-                <span className="content">I'm <span className="manikanta">Manikanta</span><br/>Competitive Programmer..</span>
-                <p className="content-para">Developed a Movie Review Application to understand REST API and perform CRUD <br/>operations using Spring Boot and MongoDB.</p>
+                <span className="content">I'm <span className="manikanta">Manikanta</span><br/>Competitive Programmer</span>
+                <p className="content-para">Passionate frontend developer and competitive programmer, combining a passion <br/>for innovation with a strong technical skill set.</p>
                 <Link> <button 
                 onClick={()=>{
                     // Get the first element with class 'contact' and scroll it into view

@@ -11,22 +11,23 @@
     height: 100vh;
     width: 100vw;
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 2.83rem;
     font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .hello{
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 1.37rem;
+    font-weight: 400;
 }
 .manikanta{
     color: #5adeff;
 }
 .content-para{
     font-size: 14px;
-    font-weight: 250;
+    font-weight: 360;
+    margin-bottom: 0.3rem;
 }
 .hireme-btn{
     font-size: 14px;
@@ -42,8 +43,8 @@
 }
 .hireme-img{
     object-fit: cover;
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
     margin: 0.7rem;
 }
 .background-img{
@@ -70,6 +71,12 @@
 @media screen and (max-width:480px){
     .background-img{
         right: -41vw
+    }
+    .content-para{
+        display: none;
+    }
+    .intro-content{
+        margin-top: 6.5rem;
     }
     
     

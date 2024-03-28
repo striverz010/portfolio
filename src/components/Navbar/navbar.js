@@ -17,7 +17,7 @@ const Navbar=()=>{
             <Link activeClass="active" to="intro" spy={true} smooth={true} duration={500} offset={-100} className="nav-item">HOME</Link>
             <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}  offset={-40}className="nav-item">ABOUT</Link>
             <Link activeClass="active" to="work" spy={true} smooth={true} duration={500}  offset={-30}className="nav-item">WORK</Link>
-            <Link activeClass="active" to="skills" spy={true} smooth={true} duration={500}  offset={-155}className="nav-item">SKILL</Link>
+            <Link activeClass="active" to="skills" spy={true} smooth={true} duration={500}  offset={-155}className="nav-item">SKILLS</Link>
          </div>
          <button onClick={()=>{
             // Get the first element with class 'contact' and scroll it into view

@@ -14,7 +14,7 @@ const About=()=>{
                 <div className="about-bar">
                     <img src={ab1} alt="about-img" className="ab-img"></img>
                     <h2>Problem-Solving</h2>
-                    <p>I am a good problem solver and love to solve real world problems.</p>
+                    <p>I am a good problem solver and love to solve the real world challenges.</p>
                 </div>
 
                 <div className="about-bar">
