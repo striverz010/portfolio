@@ -3,7 +3,7 @@ import "./footer.css"
 const Footer=()=>{
     return(
         <div className="footer">
-          <p>KMK &#169; 2024 ALL RIGHTS RESERED</p>
+          <p>COPYRIGHT &#169; KMK 2024 ALL RIGHTS RESERED</p>
         </div>
     )
 }

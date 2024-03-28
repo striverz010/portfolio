@@ -44,7 +44,7 @@ const Contact=()=>{
                     </div>
                     <div className="contact-way">
                         <img src={call} alt="contct" className="contact-img"></img>
-                        <a href="tel:+91 (949) 201-4400"><p>+(91) 9492014400</p></a>
+                        <a href="tel:+91 (949) 201-4400"><p>+(91) 94920 14400</p></a>
                     </div>
 
                 </div>
@@ -54,14 +54,14 @@ const Contact=()=>{
                   <a href="https://twitter.com/striver_010"><img src={twitter} alt="socialmedia" className="social-media-icon"></img></a>
                   <a href="https://leetcode.com/striver_010/"><img src={code} alt="socialmedia" className="social-media-icon"></img></a>
                </div>
-               <a href="#" className="download-cv">Download Cv</a>
+               <a href="../../assets/resume.pdf" download className="download-cv">Resume</a>
 
             </div>
             <div className="right-contact">
                 <form className="contact-form" ref={form} onSubmit={sendEmail} >
-                    <input type="text" placeholder="type your name" className="input-name" required name="user_name"></input>
-                    <input type="email" placeholder="type your email" className="input-name" required name="user_email" ></input>
-                    <textarea rows="7" placeholder="your message" name="message"></textarea>
+                    <input type="text" placeholder="Type your name" className="input-name" required name="from_name"></input>
+                    <input type="email" placeholder="Type your email" className="input-name" required name="from_email" ></input>
+                    <textarea rows="7" placeholder="Your message" name="message"></textarea>
                     <button className ="formsubmit-btn" value="Send" type="submit" >Submit</button>
                 </form>
 
